@@ -1,0 +1,81 @@
+---
+title: Home
+---
+
+/ CAROUSEL
+%section#slider
+  #carousel-slideshow.carousel.slide.carousel-fade
+    / Indicators
+    %ol.carousel-indicators
+      %li.active{"data-slide-to" => "0", "data-target" => "#carousel-slideshow"}
+      %li{"data-slide-to" => "1", "data-target" => "#carousel-slideshow"}
+      %li{"data-slide-to" => "2", "data-target" => "#carousel-slideshow"}
+    / Wrapper for slides
+    .carousel-inner{:role => "listbox"}
+      / Item 1
+      .item.active.slide1.bg-overlay-blue
+        .container
+          .slide-content.text-left
+            %h3{"data-animation" => "animated bounceInDown"} Mejor Tecnología
+            %h4{"data-animation" => "animated bounceInUp"}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac rutrum nisi, ac rhoncus magna. Proin vitae condimentum tellus. Morbi euismod ultricies eros, eu placerat sapien hendrerit eget. Nam ultricies magna eget pellentesque convallis. In euismod purus ut scelerisque sollicitudin. Sed imperdiet ut nibh nec bibendum. Integer eu quam eu urna accumsan vulputate. Nulla facilisi. In hac habitasse platea dictumst.
+            %a.btn.btn-green{:href => "about.html"} Acerca de Nosotros
+          .carousel-image.hidden-xs
+            = image_tag "doctor-small-inverse.png"
+      / Item 2
+      .item.slide3.bg-overlay-blue
+        .container
+          .slide-content.text-center
+            %h3{"data-animation" => "animated bounceInDown"} Better Technology
+            %p{"data-animation" => "animated bounceInUp"} It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            %a.btn.btn-green{"data-animation" => "animated bounceInUp", :href => "contact.html"} Contact
+      / Item 3
+      .item.slide3.bg-overlay-blue
+        .container
+          .slide-content.text-right
+            %h3{"data-animation" => "animated bounceInDown"} Emergency services
+            %h4{"data-animation" => "animated bounceInUp"} If you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing elit. Ut volutpat eros adipiscing elit Ut volutpat. aliquam erat volutpat.
+          .carousel-image-left.hidden-xs
+            = image_tag "doctor-small-inverse.png"
+    / End Wrapper for slides
+    %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-example-generic", :role => "button"}
+      %span.sr-only Previous
+    %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-example-generic", :role => "button"}
+      %span.sr-only Next
+
+%section#welcome.default-bg
+  / Container
+  .container
+    / Row
+    .row
+      .col-md-4
+        %h2
+          Bienvenido a
+          %span.text-dark Biogen Life
+        %p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+        %br/
+        %a.btn.blue.medium{:href => "#"} Nuestra Historia
+      .col-md-4
+        .services
+          .service-icon
+            %i.fa.fa-user-md
+          %h2.text-dark Especialistas Calificados
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie elementum tellus, a mollis odio tincidunt sit amet. Proin non.
+        .services.mt50
+          .service-icon
+            %i.fa.fa-medkit
+          %h2.text-dark Equipo Robusto
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie elementum tellus, a mollis odio tincidunt sit amet. Proin non.
+      .col-md-4
+        .services
+          .service-icon
+            %i.fa.fa-stethoscope
+          %h2.text-dark Prevención
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie elementum tellus, a mollis odio tincidunt sit amet. Proin non.
+        .services.mt50
+          .service-icon
+            %i.fa.fa-heart
+          %h2.text-dark Salud
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie elementum tellus, a mollis odio tincidunt sit amet. Proin non.
+    / ./end Row
+  / ./end Container

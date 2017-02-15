@@ -1,0 +1,25 @@
+%nav.navbar.navbar-default{:role => "navigation"}
+  .container
+    / LOGO
+    %a.navbar-brand.page-scroll{:href => "index.html"}
+      = image_tag 'biogen_logo.png'
+    / END LOGO
+    .navbar-header.page-scroll
+      %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+    / Collect the nav links, forms, and other content for toggling
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      %ul.nav.navbar-nav.navbar-right
+        / Hidden li included to remove active class from about link when scrolled up past about section
+        %li.hidden
+          %a.page-scroll{:href => "#page-top"}
+        %li= link_to 'Inicio', 'index.html'
+        %li= link_to 'Servicios', 'servicios.html'
+        %li= link_to 'Quienes Somos', 'acerca.html'
+        %li
+          %a{:href => "#"} Contacto
+      / END / NAVBAR RIGHT
+  / END CONTAINER

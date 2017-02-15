@@ -1,0 +1,515 @@
+@charset "utf-8";
+
+body {
+  color: #868686;
+  font-size: 14px;
+  line-height: 1.42857;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	line-height: 36px;
+}
+
+p {
+	font-weight: 300;
+	line-height: 25px;
+}
+
+a {
+  outline: none !important;
+}
+
+/* TEXT STYLES */
+.text-blue {
+  color: #07a7e3;
+}
+
+.text-dark {
+	color: #4c4c4c;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+/* BUTTON STYLES */
+.btn, a.btn {
+  display: inline-block;
+	text-decoration: none;
+	outline: none !important;
+	font-weight: 500;
+	color: #fff !important;
+	font-size: 14px;
+	padding: 13px 65px;
+	line-height: 1;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all 0.2s ease-out;
+	   -moz-transition: all 0.2s ease-out;
+	     -o-transition: all 0.2s ease-out;
+	        transition: all 0.2s ease-out;
+  border-radius: 60px;
+}
+
+.btn-green {
+  background: #32dac3;
+  border: 4px solid #32dac3;
+}
+
+.btn-green:hover, a.btn:hover {
+	background-color: #4bebd5;
+	border-color: #4bebd5;
+	color: #fff;
+}
+
+.btn.blue, a.btn.blue {
+  	background: #32b8da;
+  	border-color: #32b8da;
+}
+
+.btn.blue:hover, a.btn.blue:hover {
+  	background: #5cceeb;
+  	border-color: #5cceeb;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #07a7e3;
+  height: 40px;
+}
+
+.top-bar p {
+  margin-top: 6px;
+  color: #fff;
+}
+
+.top-bar span {
+  color: #fff;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.top-bar .fa {
+  color: #5cceeb;
+  margin-right: 6px;
+}
+
+.top-bar ul li {
+  margin-right: 15px;
+}
+
+.top-bar #site-languages {
+  margin-top: 6px;
+}
+
+/* NAV */
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0px;
+}
+
+.logo-font {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.navbar {
+  background: none;
+  padding: 15px 0 0 0;
+  border: 0;
+  border-bottom: 1px solid #ede;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:link {
+  color: #868686;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 27px;
+  padding-top: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #07a7e3;
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+/* SLIDER */
+
+#slider .main-container {
+  padding: 0;
+}
+
+#slider h3 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#slider h4 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#slider .slide-content {
+  max-width: 70%;
+}
+
+#slider .carousel-indicators {
+  bottom: 0;
+}
+
+#slider .carousel-control.right,
+#slider .carousel-control.left {
+  background-image: none;
+}
+
+#slider .carousel .item {
+  min-height: 525px;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner .item .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-image {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: auto;
+}
+
+.carousel-image-left {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+}
+
+#slider .btn {
+  margin-top: 15px;
+  animation-delay: 1.6s;
+}
+
+#slider h3{
+  	animation-delay: 1s;
+}
+#slider h4 {
+  	animation-delay: 1.4s;
+}
+#slider h2 {
+  	animation-delay: 2.4s;
+}
+
+#slider h1 {
+	animation-delay: 0.8s;
+}
+
+#slider p {
+	animation-delay: 1.8s;
+}
+
+#slider .carousel-control {
+  width: 6%;
+  text-shadow: none;
+}
+
+#slider h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+	text-transform: uppercase;
+}
+
+#slider p {
+  text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#slider .carousel-indicators li {
+  width: 14px;
+  height: 14px;
+  background-color: rgba(255,255,255,.4);
+  border: none;
+}
+#slider .carousel-indicators .active{
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border:none;
+}
+
+/* Sliders backgrounds */
+#slider .slide1 {
+  background-image: url('../images/bg/bg-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+}
+#slider .slide2 {
+  background-image: url('../img/bg/bg-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+}
+#slider .slide3 {
+  background-image: url('../images/bg/bg-4.jpg');
+  background-color: #32b8da;
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+}
+#slider .slide4 {
+  background-image: url('../img/bg/bg-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.bg-overlay-blue:before {
+  position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	background-color: #32b8da;
+	content: '';
+	left: 0;
+	top: 0;
+	opacity: 0.9;
+}
+
+.bg-overlay-blue {
+  color: #fff;
+}
+
+.bg-overlay-blue:after {
+  opacity: 0;
+}
+
+/* WELCOME */
+#welcome h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#welcome p {
+	margin: 20px 0;
+}
+
+#welcome .services {
+	position: relative;
+}
+
+#welcome .service-icon {
+	float: left;
+	margin-right: 40px;
+	height: 75px;
+	width: 75px;
+	line-height: 75px;
+	text-align: center;
+}
+
+#welcome .service-icon .fa {
+	background: #fff;
+	width: 36px;
+	height: 34px;
+	color: #32b8da;
+	font-size: 28px;
+	line-height: 34px;
+	position: absolute;
+	top: 6px;
+	left: 35px;
+	z-index: 1;
+	border-radius: 2px;
+}
+
+#welcome .service-icon::after, #welcome .service-icon::before {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    z-index: 0;
+}
+
+#welcome .service-icon::before {
+	top: 20px;
+	left: 15px;
+	width: 75px;
+	height: 34px;
+}
+
+#welcome .service-icon::after {
+	left: 35px;
+	width: 35px;
+	height: 75px;
+}
+
+#welcome .services:hover .service-icon .fa {
+	background: #5cceeb;
+	color: #fff;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+#welcome .services:hover > h2 {
+	color: #5cceeb;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+#welcome .services:hover > .service-icon::after, #welcome .services:hover > .service-icon::before {
+	background: #5cceeb;
+	border: 1px solid #5cceeb;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+#welcome .services p {
+	overflow: hidden;
+}
+
+#welcome .fa {
+	color: #fff;
+	font-size: 32px;
+	margin-top: 14px;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #4c6575;
+  color: #e4e5e7;
+}
+
+footer .footer-slogan {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	color: rgba(244, 245, 247, 0.6);
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer h3 {
+	font-size: 24px;
+	margin-bottom: 35px;
+	position: relative;
+}
+
+footer h3:after {
+	content: "";
+	background: #32dac3;
+	width: 40px;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	margin-top: 10px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	color: rgba(244, 245, 247, 0.6);
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	font-weight: 400;
+	font-size: 13px;
+}
+
+footer ul li > a {
+	color: rgba(244, 245, 247, 0.6) !important;
+}
+
+footer ul li:last-child {
+	border: none;
+}
+
+/* Scroll to top */
+.scroll-top {
+	position: fixed;
+	display: none;
+	bottom: 7px;
+	right: 10px;
+	z-index: 1001;
+}
+
+.scroll-top a {
+	background: #4c6575;
+	display: block;
+	opacity: 1;
+	height: 26px;
+	width: 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding-top: 2px;
+}
+
+.scroll-top a:hover,
+.scroll-top a:active {
+	opacity: .7;
+	color: #f4f4f4;
+}
+
+/**********************
+Backgrounds
+**********************/
+.default-bg {
+	background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #fff;
+  background-origin: padding-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+	border-bottom: 1px solid #ccc;
+}
+
+/**********************
+Helper Classes
+**********************/
+.widget {
+	padding: 40px 0;
+}
